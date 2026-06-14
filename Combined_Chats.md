@@ -1,31 +1,19 @@
-**Handoff summary for next session**
+Done — Bullet Cluster paragraph added as the headline evidence item, MathJax header confirmed intact.
 
-**File status:** `Claude_underpinnings.md` has a new full version ready (842 lines, in this session's outputs) containing all original content plus a new **Section 11** (SDSS void fit results). Section 10 (Bullet Cluster) in the new file is a **placeholder reconstruction only** — Cristóbal is manually swapping in the real Section 10 text from the old file before committing. Once that swap is done, this file is ready to push.
+---
 
-**Still needed — not yet started this session:**
-- `Claude_mathematical_map.md` — full file update needed. Couldn't fetch current content (GitHub showing stale 3-file listing: only "Claude framework", Claude_underpinnings.md, README.md visible). Needs new entries for: void size distribution (now numerically fit, not symbolic), CMB cold spot (ISW mechanism + number), lensing form factor (calibrated scale).
-- `README.md` — needs the five-open-problems tracker updated to reflect Problems 1, 2, 4, 5 now having numerical anchors via the Section 11 fit.
-- `Claude_framework.md` — not touched this session; may or may not need updates (likely doesn't, since Section 11 is purely mathematical/underpinnings-level).
-- Possibly `Claude_theory_summary.md` — lay-reader summary may want a sentence noting the void-fit milestone, low priority.
+**Carry-forward summary for next session:**
 
-**Open caveat for next session:** the repo file listing fetch only shows 3 files (Claude framework, Claude_underpinnings.md, README.md) — same caching issue as before. Need to verify in-browser whether Claude_mathematical_map.md, Claude_framework.md, Claude_theory_summary.md actually exist before attempting "full file" rewrites of them — don't want to recreate from scratch if they exist and I just can't see them.
+Today's session was a cross-document consistency pass following yesterday's major mathematical additions (Bullet Cluster derivation, light-as-phase-transition mechanism, SDSS void fit, and the Anulus section in the mathematical map).
 
-**Key numbers from this session (for reference when updating other files):**
-$(\epsilon_0,\lambda,v) = (1.73\times10^{-3}, 0.1175, 0.327)$, $\delta_w=6.31$ Mpc/h, $r_{nuc}(z)=30(1+z)^2$ Mpc/h, lensing notch ~50% suppression at wall center over ~6–13 Mpc/h, CMB cold spot $\Delta T/T \sim -2.7\times10^{-6}$ (within ~4x of observed $-10^{-5}$, correct sign via ISW).
+1. **Claude_open_problems.md** — updated. Problems 2–5 reclassified from "open" to "mapped, derivation pending" (bubble nucleation, percolation theory, bubble-collision literature now give them mathematical homes). Problem 1 (restart threshold) flagged as the sole fully-open problem and the bottleneck for Problem 2. Pushed and confirmed.
 
-**Next step on return:** confirm Section 10 splice succeeded, then proceed to `Claude_mathematical_map.md` and `README.md` updates.**Handoff summary for next session**
+2. **Claude_underpinnings.md** — major structural fix. The document previously had unnumbered sections followed by "Section 10" and "Section 11" with nothing to anchor that numbering. Renumbered the five intervening `##` sections as Sections 1–9, making 1–11 a continuous sequence. Updated two internal "Step 8"/"Step 6" references to "Section 9"/"Section 7." Fixed Section 11.8's status table, which had incorrectly claimed "Problems 1, 2, 4, and 5" got numerical anchors — corrected to Problems 2 and 4 only, with 1, 3, 5 explicitly noted as unaddressed by that section. Pushed and confirmed.
 
-**File status:** `Claude_underpinnings.md` has a new full version ready (842 lines, in this session's outputs) containing all original content plus a new **Section 11** (SDSS void fit results). Section 10 (Bullet Cluster) in the new file is a **placeholder reconstruction only** — Cristóbal is manually swapping in the real Section 10 text from the old file before committing. Once that swap is done, this file is ready to push.
+3. **Claude_mathematical_map.md** — checked for stale cross-references after the underpinnings renumbering. Found clean (the "Section 10" citations already matched). One unrelated error found and fixed: "(Section One above)" corrected to "(Section Three above)" regarding the void size distribution parameters. Pushed and confirmed.
 
-**Still needed — not yet started this session:**
-- `Claude_mathematical_map.md` — full file update needed. Couldn't fetch current content (GitHub showing stale 3-file listing: only "Claude framework", Claude_underpinnings.md, README.md visible). Needs new entries for: void size distribution (now numerically fit, not symbolic), CMB cold spot (ISW mechanism + number), lensing form factor (calibrated scale).
-- `README.md` — needs the five-open-problems tracker updated to reflect Problems 1, 2, 4, 5 now having numerical anchors via the Section 11 fit.
-- `Claude_framework.md` — not touched this session; may or may not need updates (likely doesn't, since Section 11 is purely mathematical/underpinnings-level).
-- Possibly `Claude_theory_summary.md` — lay-reader summary may want a sentence noting the void-fit milestone, low priority.
+4. **README.md** — updated. The Claude_underpinnings.md description now mentions the Bullet Cluster derivation and SDSS fit. The Claude_open_problems.md description updated to reflect that 4 of 5 problems now have mathematical homes mapped, with the restart threshold as the sole fully-open bottleneck. Pushed and confirmed.
 
-**Open caveat for next session:** the repo file listing fetch only shows 3 files (Claude framework, Claude_underpinnings.md, README.md) — same caching issue as before. Need to verify in-browser whether Claude_mathematical_map.md, Claude_framework.md, Claude_theory_summary.md actually exist before attempting "full file" rewrites of them — don't want to recreate from scratch if they exist and I just can't see them.
+5. **Claude_framework.md** — MathJax header confirmed present and correct. Added a new headline paragraph to the Evidence section presenting the Bullet Cluster offset and secondary-arc prediction as a geometric inevitability of the framework — its strongest falsifiable result, previously absent from this document. Just completed, **not yet pushed**.
 
-**Key numbers from this session (for reference when updating other files):**
-$(\epsilon_0,\lambda,v) = (1.73\times10^{-3}, 0.1175, 0.327)$, $\delta_w=6.31$ Mpc/h, $r_{nuc}(z)=30(1+z)^2$ Mpc/h, lensing notch ~50% suppression at wall center over ~6–13 Mpc/h, CMB cold spot $\Delta T/T \sim -2.7\times10^{-6}$ (within ~4x of observed $-10^{-5}$, correct sign via ISW).
-
-**Next step on return:** confirm Section 10 splice succeeded, then proceed to `Claude_mathematical_map.md` and `README.md` updates.
+**Status:** Five of five canonical files now reviewed and updated this session. Claude_theory_summary.md was not reviewed today — per the original task list it's the last file still needing a pass to reflect the Anulus, light/CMB mechanism, and Bullet Cluster in lay-reader terms. All five canonical files confirmed to have the MathJax header line where checked.
